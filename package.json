@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:swaglabs:swag": "cross-env ENV=labs SYSTEM=swag npx playwright test --project labs-swag"
+    "test:swagLabs:lab": "cross-env ENV=lab SYSTEM=swagLabs npx playwright test --project lab-swagLabs --headed"
   },
   "keywords": [],
   "author": "",
