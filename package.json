@@ -1,0 +1,30 @@
+{
+  "name": "test-automation-playwright-js-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:swaglabs:swag": "cross-env ENV=labs SYSTEM=swag npx playwright test --project labs-swag"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1",
+    "allure-commandline": "^2.23.1",
+    "allure-playwright": "^2.5.0",
+    "allure-single-html-file-js": "^0.0.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "moment": "^2.29.4"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
