@@ -66,11 +66,11 @@ module.exports = defineConfig({
       name: 'lab-swagLabs',
       use: { ...devices['Desktop Chrome'] },
       testDir: `tests/swagLabs`
+    },
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
     }
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
-    // },
 
     /* Test against mobile viewports. */
     // {

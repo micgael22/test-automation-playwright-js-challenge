@@ -1,7 +1,7 @@
 {
   "name": "test-automation-playwright-js-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automation Project",
   "main": "index.js",
   "scripts": {
     "test:swagLabs:lab": "cross-env ENV=lab SYSTEM=swagLabs npx playwright test --project lab-swagLabs --headed"
