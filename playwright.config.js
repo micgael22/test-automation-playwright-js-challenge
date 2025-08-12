@@ -33,10 +33,14 @@ module.exports = defineConfig({
       outputFolder: `results/${sSystemName.toLowerCase()}-${sEnvironment.toLowerCase()}/allure-results/`,
       suiteTitle: false,
     }],
-    [
-      'json', {
+    ['json', {
       outputFile: `results/${sSystemName.toLowerCase()}-${sEnvironment.toLowerCase()}/result-${sEnvironment.toLowerCase()}.json`
     }],
+    ['monocartReporter', {
+      name: 'Playwright Test Report',
+      outputFile: './report/monocart-report.html',
+      autoOpen: true
+    }]
   ],
   // testDir: './e2e',
   // /* Run tests in files in parallel */
